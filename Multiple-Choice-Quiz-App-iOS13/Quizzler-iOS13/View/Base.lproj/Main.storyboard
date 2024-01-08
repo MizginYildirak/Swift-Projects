@@ -99,7 +99,11 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="firstChoice" destination="yFT-60-Aof" id="Zad-D2-DqG"/>
+                        <outlet property="progressBar" destination="TXm-qh-7Xg" id="Acb-6s-PEa"/>
                         <outlet property="questionLabel" destination="rSI-li-mhO" id="tK2-iO-FOl"/>
+                        <outlet property="secondChoice" destination="oVw-Hl-IRe" id="O1j-ge-hgT"/>
+                        <outlet property="thirdChoice" destination="tbn-vQ-GyC" id="d8j-x2-sEp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
