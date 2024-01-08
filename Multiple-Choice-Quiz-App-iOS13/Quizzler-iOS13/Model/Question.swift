@@ -18,6 +18,4 @@ struct Question {
         answer = a
         correctAnswer = c
     }
-    
-    
 }
