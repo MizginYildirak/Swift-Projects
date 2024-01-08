@@ -15,7 +15,24 @@ class ViewController: UIViewController {
         updateUI()
     }
     
-    func updateUI() {
+    @IBAction func answerButtonPressed(_ sender: UIButton) {
+        let userAnswer = sender.currentTitle
+        let correntAnswer = quizBrain.checkAnswer(userAnswer!)
+        
+        if (userAnswer != nil) == correntAnswer {
+                  sender.backgroundColor = UIColor.green
+            print("doru")
+              } else {
+                  sender.backgroundColor = UIColor.red
+                  print("yanlış")
+              }
+
+        quizBrain.nextQuestion()
+        
+        Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(updateUI), userInfo: nil, repeats: false)
+    }
+    
+    @objc func updateUI() {
         questionLabel.text = quizBrain.getQuestionText()
         
         let answerChoices = quizBrain.getAnswerChoices()
@@ -25,12 +42,9 @@ class ViewController: UIViewController {
         thirdChoice.setTitle(answerChoices[2] as? String, for: .normal)
         
         progressBar.progress = quizBrain.getProgress()
-    }
-    
-    @IBAction func answerButtonPressed(_ sender: UIButton) {
-        _ = sender.currentTitle
         
-        quizBrain.nextQuestion()
-        updateUI()
+        firstChoice.backgroundColor = UIColor.clear
+        secondChoice.backgroundColor = UIColor.clear
+        thirdChoice.backgroundColor = UIColor.clear
     }
 }

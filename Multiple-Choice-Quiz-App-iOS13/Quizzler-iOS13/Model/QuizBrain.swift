@@ -44,6 +44,11 @@ struct QuizBrain {
           return Float(questionNumber) / Float(quiz.count)
       }
     
+    func checkAnswer(_ userAnswer: String) -> Bool {
+        let correctAnswer = quiz[questionNumber].correctAnswer
+        return userAnswer == correctAnswer
+    }
+    
 //    func getChoiceText() {
 //        if 
     }
