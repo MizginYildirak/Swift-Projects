@@ -25,7 +25,7 @@ struct WeatherModel {
             return "cloud.drizzle"
         case 500...531:
             return "cloud.rain"
-        case 600...522:
+        case 600...622:
             return "cloud.snow"
         case 701...781:
             return "cloud.fog"
@@ -37,4 +37,5 @@ struct WeatherModel {
             return "cloud"
         }
     }
+    
 }
