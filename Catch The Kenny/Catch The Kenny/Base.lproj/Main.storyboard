@@ -85,9 +85,9 @@
                         <outlet property="kenny4" destination="Tlr-pG-lsB" id="iQL-zD-Ztn"/>
                         <outlet property="kenny5" destination="8yA-Qo-8rz" id="Uat-jv-ObK"/>
                         <outlet property="kenny6" destination="Qg8-tk-U0K" id="SCf-zb-ngB"/>
-                        <outlet property="kenny7" destination="JKv-3q-H5d" id="qQD-Mx-ZD9"/>
-                        <outlet property="kenny8" destination="cUJ-5n-lb3" id="tdL-Z8-H9T"/>
-                        <outlet property="kenny9" destination="cUJ-5n-lb3" id="b41-Oo-Ihg"/>
+                        <outlet property="kenny7" destination="4L2-r7-G8p" id="Dsd-xu-BvC"/>
+                        <outlet property="kenny8" destination="JKv-3q-H5d" id="6rs-Ni-ENo"/>
+                        <outlet property="kenny9" destination="cUJ-5n-lb3" id="DGj-vw-ak2"/>
                         <outlet property="scoreLabel" destination="r9A-YU-x0G" id="avU-qc-CCG"/>
                         <outlet property="timeLabel" destination="Yks-rG-JnK" id="VPv-66-2wj"/>
                     </connections>
