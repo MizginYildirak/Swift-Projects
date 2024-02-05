@@ -14,6 +14,7 @@
 		F09BD3FE2B6F01B80056DFD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09BD3FD2B6F01B80056DFD3 /* Assets.xcassets */; };
 		F09BD4012B6F01B80056DFD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09BD3FF2B6F01B80056DFD3 /* LaunchScreen.storyboard */; };
 		F09BD40B2B6F0F930056DFD3 /* detailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09BD40A2B6F0F930056DFD3 /* detailsVC.swift */; };
+		F09E20392B70247B00CB6503 /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E20382B70247B00CB6503 /* Simpson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F09BD4002B6F01B80056DFD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F09BD4022B6F01B80056DFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F09BD40A2B6F0F930056DFD3 /* detailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = detailsVC.swift; path = ../detailsVC.swift; sourceTree = "<group>"; };
+		F09E20382B70247B00CB6503 /* Simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				F09BD3F62B6F01B60056DFD3 /* SceneDelegate.swift */,
 				F09BD40A2B6F0F930056DFD3 /* detailsVC.swift */,
 				F09BD3F82B6F01B60056DFD3 /* ViewController.swift */,
+				F09E20382B70247B00CB6503 /* Simpson.swift */,
 				F09BD3FA2B6F01B60056DFD3 /* Main.storyboard */,
 				F09BD3FD2B6F01B80056DFD3 /* Assets.xcassets */,
 				F09BD3FF2B6F01B80056DFD3 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				F09BD40B2B6F0F930056DFD3 /* detailsVC.swift in Sources */,
 				F09BD3F52B6F01B60056DFD3 /* AppDelegate.swift in Sources */,
 				F09BD3F72B6F01B60056DFD3 /* SceneDelegate.swift in Sources */,
+				F09E20392B70247B00CB6503 /* Simpson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
